@@ -1,0 +1,24 @@
+## Syntax highlighting for Ursa.
+
+syntax ursa "\.ursa$"
+comment "//"
+
+# Declarational stuff.
+color green "\<(fn|let)\>"
+# Flow control and special keywords.
+color brightyellow "\<(loop|if|else)\>"
+# "Exit" points.
+color magenta "\<(break|continue|return)\>"
+
+# Octal/decimal and hexadecimal numbers.
+color cyan "\<([0-9]+|0x[[:xdigit:]]+)\>"
+# Special values.
+color cyan "\<(true|false|null)\>"
+
+# Strings.
+color brightmagenta ""([^"\]|\\.)*""
+# Comments.
+color brightblue "(^|[[:blank:]])//.*"
+
+# Trailing whitespace.
+color ,green "[[:space:]]+$"
