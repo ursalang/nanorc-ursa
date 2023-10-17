@@ -1,6 +1,7 @@
 ## Syntax highlighting for Ursa.
 
 syntax ursa "\.ursa$"
+header "^#!.*ursa"
 comment "//"
 
 # Declarational stuff.
@@ -19,6 +20,7 @@ color cyan "\<(true|false|null)\>"
 color brightmagenta ""([^"\]|\\.)*""
 # Comments.
 color brightblue "(^|[[:blank:]])//.*"
+color brightblue "^#!.*"
 
 # Trailing whitespace.
 color ,green "[[:space:]]+$"
