@@ -7,7 +7,7 @@ comment "//"
 # Declarational stuff.
 color green "\<(fn|let)\>"
 # Flow control and special keywords.
-color brightyellow "\<(loop|if|else)\>"
+color brightyellow "\<(loop|if|else|and|or|not)\>"
 # "Exit" points.
 color magenta "\<(break|continue|return)\>"
 
