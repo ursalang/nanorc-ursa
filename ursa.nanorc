@@ -18,8 +18,11 @@ color cyan "\<(true|false|null)\>"
 
 # Strings.
 color brightmagenta ""([^"\]|\\.)*""
+
 # Comments.
-color brightblue "(^|[[:blank:]])//.*"
+color brightblue "//.*"
+# (Nested comments do not work.)
+color brightblue start="/\*" end="\*/"
 color brightblue "^#!.*"
 
 # Trailing whitespace.
