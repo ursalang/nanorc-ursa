@@ -5,9 +5,9 @@ header "^#!.*ursa"
 comment "//"
 
 # Declarational stuff.
-color green "\<(fn|let)\>"
+color green "\<(fn|let|for)\>"
 # Flow control and special keywords.
-color brightyellow "\<(loop|if|else|and|or|not)\>"
+color brightyellow "\<(loop|if|else|and|or|not|of)\>"
 # "Exit" points.
 color magenta "\<(break|continue|return)\>"
 
