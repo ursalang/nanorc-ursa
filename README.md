@@ -1,6 +1,6 @@
 # Nano syntax highlighting for Ursa
 
-© 2023 Reuben Thomas <rrt@sc3d.org>  
+© 2023-2024 Reuben Thomas <rrt@sc3d.org>  
 
 This package is distributed under the MIT license.
 
