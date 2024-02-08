@@ -5,7 +5,7 @@ header "^#!.*ursa"
 comment "//"
 
 # Reserved words.
-color yellow "\<(loop|if|else|and|or|not|fn|let|for|of|break|continue|return)\>"
+color yellow "\<(and|await|break|class|continue|else|fn|for|if|launch|let|loop|not|of|or|pub|return|static|trait|use|var|yield)\>"
 
 # Octal/decimal and hexadecimal numbers.
 color magenta "\<([0-9]+|0x[[:xdigit:]]+)\>"
